@@ -1,0 +1,12 @@
+
+e
+java:S2259+"HA "NullPointerException" could be thrown; "connection" is nullable here.(İÌï8ƒ·ÏÁÒ1
+j
+java:S2259-"HA "NullPointerException" could be thrown; "connection" is nullable here.(Øîğ€ıÿÿÿÿ8‚·ÏÁÒ1
+l
+java:S20957"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ìû—8ƒ·ÏÁÒ1
+l
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ĞÿŸÓ8ƒ·ÏÁÒ1
+X	java:S125"<This block of commented-out lines of code should be removed.(òŞ£Ó8ˆ·ÏÁÒ1
+P
+java:S1128".Remove this unused import 'dao.util.CrudUtil'.(ØÒñ¿üÿÿÿÿ8—ŠÂÒ1

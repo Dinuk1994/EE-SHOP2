@@ -1,0 +1,70 @@
+
+h	java:S112‡"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8š£½‚Ò1
+h	java:S112‰"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8š£½‚Ò1
+h	java:S112—"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8š£½‚Ò1
+h	java:S112™"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8š£½‚Ò1
+h	java:S112È"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8š£½‚Ò1
+h	java:S112Ê"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8š£½‚Ò1
+h	java:S112ä"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8š£½‚Ò1
+h	java:S112æ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8š£½‚Ò1
+Q
+java:S37400"/Provide the parametrized type for this generic.(Î÷÷®üÿÿÿÿ8š£½‚Ò1
+Q
+java:S37401"/Provide the parametrized type for this generic.(Û¼Ùôüÿÿÿÿ8š£½‚Ò1
+Q
+java:S37402"/Provide the parametrized type for this generic.(‚šğÌüÿÿÿÿ8š£½‚Ò1
+Q
+java:S37403"/Provide the parametrized type for this generic.(·Ëöúÿÿÿÿ8š£½‚Ò1
+Q
+java:S37405"/Provide the parametrized type for this generic.(ÒÂ†øÿÿÿÿ8š£½‚Ò1
+s
+java:S1192”"UDefine a constant instead of duplicating this literal "Something Went Wrong" 3 times.(Óò…»8›£½‚Ò1
+}
+java:S1104*"[Make txtCustomerName a static final constant or non-public and provide accessors if needed.(ì¨ìÑøÿÿÿÿ8›£½‚Ò1
+x
+java:S1104+"VMake txtAddress a static final constant or non-public and provide accessors if needed.(©ûîùıÿÿÿÿ8›£½‚Ò1
+~
+java:S1104,"\Make txtContactNumber a static final constant or non-public and provide accessors if needed.(öÍœúÿÿÿÿÿ8›£½‚Ò1
+v
+java:S1104-"TMake txtEmail a static final constant or non-public and provide accessors if needed.(Ø¦½üÿÿÿÿ8›£½‚Ò1
+u
+java:S1104."SMake lblDate a static final constant or non-public and provide accessors if needed.(…“À„ÿÿÿÿÿ8›£½‚Ò1
+p
+java:S1104/"SMake lblTime a static final constant or non-public and provide accessors if needed.(¿°×•8›£½‚Ò1
+}
+java:S11040"[Make ColCustomerName a static final constant or non-public and provide accessors if needed.(Î÷÷®üÿÿÿÿ8›£½‚Ò1
+x
+java:S11041"VMake colAddress a static final constant or non-public and provide accessors if needed.(Û¼Ùôüÿÿÿÿ8›£½‚Ò1
+~
+java:S11042"\Make colContactNumber a static final constant or non-public and provide accessors if needed.(‚šğÌüÿÿÿÿ8›£½‚Ò1
+v
+java:S11043"TMake colEmail a static final constant or non-public and provide accessors if needed.(·Ëöúÿÿÿÿ8›£½‚Ò1
+t
+java:S11044"WMake tblCustomer a static final constant or non-public and provide accessors if needed.(¹§Éî8›£½‚Ò1
+}
+java:S11045"[Make colCustomerName a static final constant or non-public and provide accessors if needed.(ÒÂ†øÿÿÿÿ8›£½‚Ò1
+{	java:S1160"ZRename this field "ColCustomerName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î÷÷®üÿÿÿÿ8¸£½‚Ò1
+„
+java:S18455"bRename field "colCustomerName" to prevent any misunderstanding/clash with field "ColCustomerName".(ÒÂ†øÿÿÿÿ8¸£½‚Ò1
+ƒ
+java:S4144³"eUpdate this method so that its implementation is not identical to "dashboardBtnOnAction" on line 171.(ı…¯8ïÿ½‚Ò1
+c
+java:S2147ˆ"ECombine this catch with the one at line 134, which has the same body.(ıàÑÎ8½£½‚Ò1
+c
+java:S2147˜"ECombine this catch with the one at line 150, which has the same body.(ıàÑÎ8Á£½‚Ò1
+O
+java:S1172«"2Remove this unused method parameter "actionEvent".(Œ¶¡8Ä£½‚Ò1
+P
+java:S1172³"2Remove this unused method parameter "actionEvent".(ı…¯8Ë£½‚Ò1
+c
+java:S2147É"ECombine this catch with the one at line 199, which has the same body.(ıàÑÎ8Ê£½‚Ò1
+U
+java:S1172Î"2Remove this unused method parameter "actionEvent".(×¤Ìùÿÿÿÿ8Ì£½‚Ò1
+P
+java:S1172Ù"2Remove this unused method parameter "actionEvent".(¾ƒ¯î8Î£½‚Ò1
+c
+java:S2147å"ECombine this catch with the one at line 227, which has the same body.(ıàÑÎ8Í£½‚Ò1
+U
+java:S1172ë"2Remove this unused method parameter "actionEvent".(åéÄûÿÿÿÿ8„€¾‚Ò1
+L
+java:S1128"*Remove this unused import 'dto.tm.UserTm'.(í£ê‡üÿÿÿÿ8Î£½‚Ò1

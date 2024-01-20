@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.effect.MotionBlur?>
+<AnchorPane fx:id="pane6" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerFormController">
+   <children>
+      <ImageView fitHeight="804.0" fitWidth="1211.0" pickOnBounds="true">
+         <image>
+            <Image url="@../img/istockphoto-1323562285-612x612.jpg" />
+         </image>
+         <effect>
+            <MotionBlur />
+         </effect>
+      </ImageView>
+   </children>
+   <Label fx:id="lblId" alignment="CENTER" layoutX="52.0" layoutY="101.0" prefHeight="40.0" prefWidth="173.0" style="-fx-background-color: #D5A953; -fx-border-color: black; -fx-border-radius: 20px; -fx-background-radius: 20px;" text="CustomerID" textFill="#ff0202">
+      <font>
+         <Font name="System Bold" size="21.0" />
+      </font>
+   </Label>
+   <JFXButton buttonType="RAISED" layoutX="1012.0" layoutY="15.0" onAction="#dashboardBtnOnAction" prefHeight="48.0" prefWidth="144.0" style="-fx-background-color: #1E1ACB; -fx-background-radius: 25px;" text="Dashboard" textFill="WHITE" />
+   <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" layoutY="2.0" onAction="#backBtnOnAction" prefHeight="73.0" prefWidth="89.0">
+      <graphic>
+         <ImageView fitHeight="60.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../img/icons8-back-100.png" />
+            </image>
+         </ImageView>
+      </graphic>
+   </JFXButton>
+   <JFXTreeTableView fx:id="tblCustomer" layoutX="42.0" layoutY="371.0" prefHeight="400.0" prefWidth="1139.0" style="-fx-background-color: #EEF296;">
+      <columns>
+         <TreeTableColumn fx:id="colCustomerName" prefWidth="186.0" text="Customer Name" />
+         <TreeTableColumn fx:id="colAddress" prefWidth="191.0" text="Address" />
+         <TreeTableColumn fx:id="colContactNumber" prefWidth="232.0" text="Contact Number" />
+         <TreeTableColumn fx:id="colEmail" prefWidth="285.0" text="Email" />
+         <TreeTableColumn fx:id="colOption" prefWidth="244.0" text="Option" />
+      </columns>
+   </JFXTreeTableView>
+   <JFXButton buttonType="RAISED" layoutX="406.0" layoutY="308.0" onAction="#addCustomerBtnOnAction" prefHeight="48.0" prefWidth="200.0" style="-fx-background-color: #1ACB41;" text="Add Customer" textFill="WHITE">
+      <font>
+         <Font name="System Bold" size="19.0" />
+      </font>
+   </JFXButton>
+   <JFXTextField fx:id="txtCustomerName" layoutX="236.0" layoutY="154.0" prefHeight="31.0" prefWidth="200.0">
+      <font>
+         <Font size="19.0" />
+      </font></JFXTextField>
+   <Label layoutX="61.0" layoutY="167.0" prefHeight="40.0" prefWidth="155.0" text="Customer Name">
+      <font>
+         <Font size="19.0" />
+      </font>
+   </Label>
+   <Label layoutX="517.0" layoutY="167.0" prefHeight="40.0" prefWidth="130.0" text="Address">
+      <font>
+         <Font size="19.0" />
+      </font>
+   </Label>
+   <JFXTextField fx:id="txtAddress" layoutX="655.0" layoutY="154.0" prefHeight="31.0" prefWidth="200.0">
+      <font>
+         <Font size="19.0" />
+      </font>
+   </JFXTextField>
+   <JFXTextField fx:id="txtContactNumber" layoutX="236.0" layoutY="217.0" prefHeight="31.0" prefWidth="200.0">
+      <font>
+         <Font size="19.0" />
+      </font>
+   </JFXTextField>
+   <Label layoutX="61.0" layoutY="230.0" prefHeight="40.0" prefWidth="155.0" text="Contact Number">
+      <font>
+         <Font size="19.0" />
+      </font>
+   </Label>
+   <Label layoutX="517.0" layoutY="230.0" prefHeight="40.0" prefWidth="130.0" text="Email">
+      <font>
+         <Font size="19.0" />
+      </font>
+   </Label>
+   <JFXTextField fx:id="txtEmail" layoutX="655.0" layoutY="217.0" prefHeight="31.0" prefWidth="200.0">
+      <font>
+         <Font size="19.0" />
+      </font>
+   </JFXTextField>
+   <Label fx:id="lblDate" alignment="CENTER" layoutX="944.0" layoutY="88.0" prefHeight="66.0" prefWidth="212.0" text="YYYY-MM-DD">
+      <font>
+         <Font name="System Bold" size="28.0" />
+      </font>
+   </Label>
+   <Label fx:id="lblTime" alignment="CENTER" layoutX="938.0" layoutY="142.0" prefHeight="66.0" prefWidth="212.0" text="HH-mm-ss">
+      <font>
+         <Font name="System Bold" size="28.0" />
+      </font>
+   </Label>
+   <JFXButton buttonType="RAISED" layoutX="944.0" layoutY="270.0" onAction="#updateCustomerBtnOnAction" prefHeight="48.0" prefWidth="200.0" style="-fx-background-color: #FFA732;" text="Update Customer" textFill="WHITE">
+      <font>
+         <Font name="System Bold" size="19.0" />
+      </font>
+   </JFXButton>
+   <JFXButton buttonType="RAISED" layoutX="944.0" layoutY="206.0" onAction="#addNewCustomerBtnOnAction" prefHeight="48.0" prefWidth="200.0" style="-fx-background-color: #711DB0;" text="Add New Customer" textFill="WHITE">
+      <font>
+         <Font name="System Bold" size="19.0" />
+      </font>
+   </JFXButton>
+</AnchorPane>

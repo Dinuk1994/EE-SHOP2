@@ -1,0 +1,15 @@
+
+s
+java:S1104"QMake pane6 a static final constant or non-public and provide accessors if needed.(áþÿÕùÿÿÿÿ8ýÒ­ Ð1
+w
+java:S1104"ZMake txtSearchEmail a static final constant or non-public and provide accessors if needed.(Ø™Êƒ8ýÒ­ Ð1
+z
+java:S1104"]Make txtSearchPassword a static final constant or non-public and provide accessors if needed.(óèŸ²8ýÒ­ Ð1
+y
+java:S1104"WMake txtPassword a static final constant or non-public and provide accessors if needed.(¬ä©Óÿÿÿÿÿ8ýÒ­ Ð1
+{
+java:S4144Z"_Update this method so that its implementation is not identical to "backBtnOnAction" on line 80.(¤çÍ,8—Ó­ Ð1
+O
+java:S1172p"2Remove this unused method parameter "actionEvent".(Ø¦Îˆ8¡Ó­ Ð1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8š»»¡Ð1

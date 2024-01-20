@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.effect.MotionBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane2" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.UserRegisterFormController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1200.0" pickOnBounds="true">
+         <image>
+            <Image url="@../img/HD-wallpaper-pos-system-vectors-stock-psd-pos-machine.jpg" />
+         </image>
+         <effect>
+            <MotionBlur />
+         </effect>
+      </ImageView>
+      <Label fx:id="lblId" alignment="CENTER" layoutX="89.0" layoutY="55.0" prefHeight="40.0" prefWidth="173.0" style="-fx-background-color: #D5A953; -fx-border-color: black; -fx-border-radius: 20px; -fx-background-radius: 20px;" text="ID" textFill="#ff0202">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="867.0" layoutY="14.0" onAction="#dashboardBtnOnAction" prefHeight="48.0" prefWidth="144.0" style="-fx-background-color: #1E1ACB; -fx-background-radius: 25px;" text="Dashboard" textFill="WHITE" />
+      <JFXButton buttonType="RAISED" layoutX="1024.0" layoutY="14.0" onAction="#reportsBtnOnAction" prefHeight="48.0" prefWidth="144.0" style="-fx-background-color: #1E1ACB; -fx-background-radius: 25px;" text="Reports" textFill="WHITE" />
+      <JFXButton buttonType="RAISED" layoutX="513.0" layoutY="312.0" onAction="#regBtnOnAction" prefHeight="48.0" prefWidth="161.0" style="-fx-background-color: #1ACB41; -fx-background-radius: 15px;" text="Register" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" layoutY="2.0" onAction="#backBtnOnAction" prefHeight="73.0" prefWidth="89.0">
+         <graphic>
+            <ImageView fitHeight="60.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/icons8-back-100.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <Label layoutX="97.0" layoutY="132.0" text="User Name">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="97.0" layoutY="190.0" text="User Email">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="97.0" layoutY="256.0" text="Address">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="531.0" layoutY="130.0" text="Contact Number">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="531.0" layoutY="182.0" text="New Password">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtName" layoutX="238.0" layoutY="121.0" prefHeight="31.0" prefWidth="193.0">
+         <font>
+            <Font size="19.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="txtEmail" layoutX="238.0" layoutY="183.0" prefHeight="31.0" prefWidth="193.0">
+         <font>
+            <Font size="19.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="txtAddress" layoutX="238.0" layoutY="241.0" prefHeight="31.0" prefWidth="733.0">
+         <font>
+            <Font size="19.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="txtNumber" layoutX="722.0" layoutY="109.0" prefHeight="31.0" prefWidth="193.0">
+         <font>
+            <Font size="19.0" />
+         </font></JFXTextField>
+      <Label layoutX="216.0" layoutY="131.0" text=":">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="213.0" layoutY="191.0" text=":">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="216.0" layoutY="255.0" text=":">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="692.0" layoutY="129.0" text=":">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="695.0" layoutY="181.0" text=":">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <JFXTreeTableView fx:id="tblUser" layoutX="40.0" layoutY="375.0" prefHeight="400.0" prefWidth="1121.0" style="-fx-background-color: #B2A59B;">
+         <columns>
+            <TreeTableColumn fx:id="colId" prefWidth="108.0" text="User ID" />
+            <TreeTableColumn fx:id="colUserName" prefWidth="155.0" text="User Name" />
+            <TreeTableColumn fx:id="colUserEmail" prefWidth="199.0" text="User Email" />
+            <TreeTableColumn fx:id="colContactNumber" prefWidth="138.0" text="Contact Number" />
+            <TreeTableColumn fx:id="colAddress" prefWidth="253.0" text="Address" />
+            <TreeTableColumn fx:id="colPrimaryPassword" prefWidth="152.0" text="Primary Password" />
+            <TreeTableColumn fx:id="colOption" prefWidth="115.0" text="Option" />
+         </columns>
+      </JFXTreeTableView>
+      <JFXPasswordField fx:id="txtPassword" layoutX="722.0" layoutY="160.0" prefHeight="31.0" prefWidth="193.0">
+         <font>
+            <Font size="19.0" />
+         </font></JFXPasswordField>
+      <JFXButton fx:id="newUserBtnOnAction" buttonType="RAISED" layoutX="974.0" layoutY="121.0" onAction="#newUserBtnOnAction" prefHeight="51.0" prefWidth="193.0" style="-fx-background-color: #525CEB; -fx-background-radius: 15px;" text="New User" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="974.0" layoutY="193.0" onAction="#updateBtnOnAction" prefHeight="51.0" prefWidth="193.0" style="-fx-background-color: #FF9B50; -fx-background-radius: 15px;" text="Update " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

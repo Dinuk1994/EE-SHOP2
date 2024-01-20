@@ -1,0 +1,41 @@
+
+h	java:S112–"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8îùßìÏ1
+h	java:S112˜"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8îùßìÏ1
+h	java:S112§"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8îùßìÏ1
+h	java:S112©"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8îùßìÏ1
+h	java:S112Å"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8îùßìÏ1
+h	java:S112Ç"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8îùßìÏ1
+h	java:S112á"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8îùßìÏ1
+h	java:S112ã"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8îùßìÏ1
+h	java:S112ó"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8îùßìÏ1
+h	java:S112õ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8îùßìÏ1
+{
+java:S1104"^Make newUserBtnOnAction a static final constant or non-public and provide accessors if needed.(ÄË°€8ğùßìÏ1
+
+java:S1186¸"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¶¢˜48™úßìÏ1
+Œ
+java:S1845û"iRename method "newUserBtnOnAction" to prevent any misunderstanding/clash with field "newUserBtnOnAction".(Ò ÿÛùÿÿÿÿ8šúßìÏ1
+ƒ
+java:S4144Ì"eUpdate this method so that its implementation is not identical to "dashboardBtnOnAction" on line 176.(ı…¯8šúßìÏ1
+I
+java:S1602[",Remove useless curly braces around statement(ğ’ Ü8¡úßìÏ1
+c
+java:S2147—"ECombine this catch with the one at line 149, which has the same body.(ıàÑÎ8¤úßìÏ1
+c
+java:S2147¨"ECombine this catch with the one at line 166, which has the same body.(ıàÑÎ8«úßìÏ1
+O
+java:S1172°"2Remove this unused method parameter "actionEvent".(Œ¶¡8¬úßìÏ1
+U
+java:S1172»"2Remove this unused method parameter "actionEvent".(ıÓóÏüÿÿÿÿ8´úßìÏ1
+c
+java:S2147Æ"ECombine this catch with the one at line 196, which has the same body.(ıàÑÎ8µúßìÏ1
+P
+java:S1172Ì"2Remove this unused method parameter "actionEvent".(ı…¯8¶úßìÏ1
+c
+java:S2147â"ECombine this catch with the one at line 224, which has the same body.(ıàÑÎ8·úßìÏ1
+U
+java:S1172è"2Remove this unused method parameter "actionEvent".(úÉèûÿÿÿÿ8ºúßìÏ1
+c
+java:S2147ô"ECombine this catch with the one at line 242, which has the same body.(ıàÑÎ8ºúßìÏ1
+U
+java:S1172û"2Remove this unused method parameter "actionEvent".(Ò ÿÛùÿÿÿÿ8¼úßìÏ1
